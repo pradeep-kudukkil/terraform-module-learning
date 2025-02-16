@@ -1,7 +1,8 @@
-bucket_name                   = "my-example-bucket-fekmfkef"
+bucket_name                   = "my-example-bucket-fekmfkef1"
 enable_versioning             = false
 acl                           = "private"
 enable_server_side_encryption = true
+aws_region                    = "ap-south-1"
 
 public_access_block = {
   block_public_acls       = true
